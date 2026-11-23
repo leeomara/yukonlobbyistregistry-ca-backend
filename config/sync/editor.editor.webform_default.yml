@@ -1,4 +1,4 @@
-uuid: 937097da-1ecd-4349-8211-4d287e5cc02a
+uuid: 51b082d2-70b9-42f9-9c43-3b46be679e36
 langcode: en
 status: true
 dependencies:
@@ -43,6 +43,7 @@ settings:
       properties:
         reversed: true
         startIndex: true
+        styles: true
       multiBlock: true
     ckeditor5_sourceEditing:
       allowed_tags: {  }

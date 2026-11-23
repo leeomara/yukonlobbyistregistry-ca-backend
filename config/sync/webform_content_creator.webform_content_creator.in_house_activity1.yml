@@ -1,0 +1,52 @@
+uuid: 08998b81-15e7-426a-8e2f-f363db61ea2d
+langcode: en
+status: true
+dependencies: {  }
+id: in_house_activity1
+title: 'In-house Activity'
+webform: add_a_lobbying_activity
+content_type: null
+field_title: null
+use_encrypt: null
+encryption_profile: null
+redirect_to_entity: false
+redirect_to_entity_message: ''
+redirect_to_entity_message_on_update: '0'
+sync_unique: false
+sync_content: true
+sync_content_delete: true
+sync_content_field: field_submission_id
+sync_content_node_field: null
+target_bundle: activity
+target_entity_type: node
+elements:
+  field_status:
+    type: false
+    mapping: default_mapping
+    webform_field: status
+    custom_check: 0
+    custom_value: ''
+  field_submission_id:
+    type: true
+    mapping: default_mapping
+    webform_field: sid
+    custom_check: 0
+    custom_value: ''
+  field_title:
+    type: false
+    mapping: default_mapping
+    webform_field: title
+    custom_check: 0
+    custom_value: ''
+  title:
+    type: false
+    mapping: default_mapping
+    webform_field: title
+    custom_check: 0
+    custom_value: ''
+  uid:
+    type: true
+    mapping: default_mapping
+    webform_field: uid
+    custom_check: 0
+    custom_value: ''

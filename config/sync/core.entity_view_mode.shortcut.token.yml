@@ -1,4 +1,4 @@
-uuid: 083254e0-d516-4d46-bed0-02c97aaff91e
+uuid: 133414dd-6250-450b-b708-2e836e785ae2
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,6 @@ dependencies:
     - shortcut
 id: shortcut.token
 label: Token
-description: ''
+description: null
 targetEntityType: shortcut
 cache: true

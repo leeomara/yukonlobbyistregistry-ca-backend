@@ -1,4 +1,4 @@
-uuid: a8a3a673-a723-48d8-9f1d-5b1908133d29
+uuid: 1f46c936-2741-41c5-b6b4-62700b1cd04a
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - olivero
 _core:
-  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+  default_config_hash: _nZjxxdypO6xrOAJkCYD81v0L7wh2zbCAVO7_C-UKIc
 id: olivero_search_form_narrow
 theme: olivero
 region: primary_menu
@@ -19,5 +19,5 @@ settings:
   label: 'Search form (narrow)'
   label_display: '0'
   provider: search
-  page_id: ''
+  page_id: null
 visibility: {  }

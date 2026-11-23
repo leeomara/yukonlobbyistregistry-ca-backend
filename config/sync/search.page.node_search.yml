@@ -1,9 +1,9 @@
-uuid: 63231d5d-4dda-42a9-9b68-960055aa2798
+uuid: 782a1935-20eb-4b22-83d1-d5f91ccc8115
 langcode: en
 status: true
 dependencies:
   module:
-    - node
+    - search_node
 _core:
   default_config_hash: 97tvtzGOa8_flb22CzSjgtm_YkiGMHvEBO-6q2K9V_U
 id: node_search
