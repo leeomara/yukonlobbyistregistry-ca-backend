@@ -1,6 +1,6 @@
 {
-    "name": "ytgov/lagoon-quitpath-ca",
-    "description": "Yukon Government - lobbyist - registry",
+    "name": "ytgov/lagoon-lobbyist-registry-backend",
+    "description": "Yukon Government - lobbyist - registry - backend",
     "type": "project",
     "license": "MIT",
     "repositories": [
