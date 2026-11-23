@@ -1,4 +1,4 @@
-uuid: 14357158-5080-46e9-acf4-df628a3365d9
+uuid: 2ed2ac83-9a89-48c1-8c3c-b9ea049425de
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,6 @@ dependencies:
     - user
 id: user.token
 label: Token
-description: ''
+description: null
 targetEntityType: user
 cache: true

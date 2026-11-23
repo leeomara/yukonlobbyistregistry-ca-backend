@@ -1,0 +1,31 @@
+description: '<p>The Senior Officer is responsible for adding/modifying lobbying activities for an organizarion. Oranizations must register if they lobby for a total of 20 hours or more in a calendar year.&nbsp;</p>'
+elements: |
+  sutitle_general:
+    '#text': '<p>The Senior Officer is responsible for adding/modifying lobbying activities for an organizarion. Oranizations must register if they lobby for a total of 20 hours or more in a calendar year.&nbsp;</p>'
+  title:
+    '#description': '<p>This is an internal title, you should use a short description of the contract.</p>'
+  other:
+    '#title': Autre
+  how_do_you_want_to_lobby_:
+    '#description': '<p>For information on the types of lobbying, <a href="http://&lt;front&gt;">click here</a></p>'
+    '#options':
+      'By letter and email': 'Lettres et courriels'
+      'By phone call': 'Appels téléphoniques'
+      'In-person conversation': 'Discussions en personne'
+      'By petition': Pétition
+      'Social media campaign': 'Campagne sur les réseaux sociaux'
+    '#other__option_label': Autre
+  has_your_organization_received_a_grant_from_the_government_of_yu:
+    '#options':
+      'Yes': Oui
+      'No': Non
+  status:
+    '#options':
+      Active: Actif
+      Pending: 'En attente'
+      Non-compliant: 'Non conforme'
+      'About to be Not in compliance': "Sur le point d''être non conforme"
+  frontend_status:
+    '#options':
+      Active: Actif
+      Non-compliant: 'Non conforme'

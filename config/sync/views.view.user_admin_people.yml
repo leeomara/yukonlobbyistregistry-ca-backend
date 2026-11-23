@@ -1,11 +1,11 @@
-uuid: 5cb8baa4-e09c-4c21-ad76-32c80f3c87fc
+uuid: 3c75fcc0-cb01-480b-bbc5-278e6e5ce1d7
 langcode: en
 status: true
 dependencies:
   module:
     - user
 _core:
-  default_config_hash: FFLg74mnzRE10lgg5fspPCZWLnIEcvCnJMlNzj8OEtw
+  default_config_hash: hZxrM4LiKjRy1g-zZSX1RExTVK8SKQAtMrsRER1420I
 id: user_admin_people
 label: People
 module: user
@@ -552,8 +552,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
           is_grouped: false
           group_info:
             label: ''
@@ -597,8 +595,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
           is_grouped: true
           group_info:
             label: Status
@@ -645,8 +641,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
             reduce: false
           is_grouped: false
           group_info:
@@ -687,8 +681,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
             reduce: false
           is_grouped: false
           group_info:
@@ -862,6 +854,7 @@ display:
           sticky: false
           summary: ''
           empty_table: true
+          class: ''
       row:
         type: fields
       query:
